@@ -1,0 +1,13 @@
+{% extends "templates/base.html" %}
+{% block content %}
+
+  <div class="row-fluid">
+    <div class="span9">
+    {{content|safe}}
+        <div class="row-fluid">
+            <div><a href="coffee">List all available coffees</a></div>
+            <div><a href="choose">Choose a coffee for you</a></div>
+        </div>
+    </div>
+  </div>
+{% endblock %}
